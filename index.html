@@ -31,6 +31,13 @@
     <script src="assets/js/jarallax.min.js" type="text/javascript" charset="utf-8"></script>
     <script src="assets/js/main.js" type="text/javascript" charset="utf-8"></script>
 
+    <script type="text/javascript">
+
+    var images = ['assets/images/bg1.gif', 'assets/images/bg2.gif', 'assets/images/bg3.gif', 'assets/images/bg4.gif', 'assets/images/bg5.gif'];
+    document.getElementsByClassName('background')[0].style.backgroundImage = 'url(' + images[Math.floor(Math.random() * images.length)] + ')';
+
+  </script>
+
     <!-- Custom CSS -->
     <style>.one-full.column p, .one-full.column h1 { margin: 0; }</style>
   </head>
