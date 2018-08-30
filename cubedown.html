@@ -42,7 +42,7 @@ function wait(ms) {
  
 var countDownDate = new Date("Aug 26, 2018 00:00:00 EDT").getTime();
  
-var times = ["Aug 30, 2018 01:36:28 EDT", "Aug 30, 2018 03:19:19 EDT", "Aug 30, 2018 05:02:10 EDT", "Aug 30, 2018 06:45:01 EDT", "Aug 30, 2018 08:27:52 EDT", "Aug 30, 2018 10:10:43 EDT", "Aug 30, 2018 11:53:34 EDT", "Aug 30, 2018 03:19:19 EDT", "Aug 30, 2018 13:36:25 EDT", "Aug 30, 2018 15:19:16 EDT"]
+var times = ["Aug 28, 2018 03:19:47 EDT", "Aug 28, 2018 04:11:27 EDT", "Aug 28, 2018 05:03:07 EDT", "Aug 28, 2018 05:54:47 EDT", "Aug 28, 2018 06:46:26 EDT", "Aug 28, 2018 07:38:06 EDT", "Aug 28, 2018 08:29:45 EDT", "Aug 28, 2018 09:21:25 EDT", "Aug 28, 2018 10:13:04 EDT", "Aug 28, 2018 11:04:44 EDT", "Aug 28, 2018 11:56:23 EDT", "Aug 28, 2018 24:48:03 EDT", "Aug 28, 2018 13:39:42 EDT", "Aug 28, 2018 14:31:22 EDT", "Aug 28, 2018 15:23:01 EDT", "Aug 28, 2018 16:14:41 EDT", "Aug 28, 2018 16:59:49 EDT", "Aug 28, 2018 17:51:15 EDT", "Aug 28, 2018 18:42:41 EDT", "Aug 28, 2018 19:34:06 EDT", "Aug 28, 2018 20:25:32 EDT", "Aug 28, 2018 21:16:58 EDT", "Aug 28, 2018 22:08:24 EDT", "Aug 28, 2018 22:59:49 EDT", "Aug 28, 2018 23:51:15 EDT"]
 var index = -1
  
 // Get todays date and time
@@ -58,26 +58,7 @@ while (distance < 0) {
  
     distance = countDownDate - now;
 }
-      
-var countDownDate2 = new Date("Aug 26, 2018 00:00:00 EDT").getTime();
- 
-var times2 = ["Aug 30, 2018 03:19:47 EDT", "Aug 30, 2018 04:11:27 EDT", "Aug 30, 2018 05:03:07 EDT", "Aug 30, 2018 05:54:47 EDT", "Aug 30, 2018 06:46:26 EDT", "Aug 30, 2018 07:38:06 EDT", "Aug 30, 2018 08:29:45 EDT", "Aug 30, 2018 09:21:25 EDT", "Aug 30, 2018 10:13:04 EDT", "Aug 30, 2018 11:04:44 EDT", "Aug 30, 2018 11:56:23 EDT", "Aug 30, 2018 24:48:03 EDT", "Aug 30, 2018 13:39:42 EDT", "Aug 30, 2018 14:31:22 EDT", "Aug 30, 2018 15:23:01 EDT", "Aug 30, 2018 16:14:41 EDT", "Aug 30, 2018 16:59:49 EDT", "Aug 30, 2018 17:51:15 EDT", "Aug 30, 2018 18:42:41 EDT", "Aug 30, 2018 19:34:06 EDT", "Aug 30, 2018 20:25:32 EDT", "Aug 30, 2018 21:16:58 EDT", "Aug 30, 2018 22:08:24 EDT", "Aug 30, 2018 22:59:49 EDT", "Aug 30, 2018 23:51:15 EDT"]
-var index2 = -1
 
- 
-// Get todays date and time
-var now2 = new Date().getTime();
-   
-// Find the distance between now and the count down date
-var distance2 = countDownDate2 - now2;
- 
-while (distance2 < 0) {
-    index2 += 1
- 
-    countDownDate2 = new Date(times2[index2]).getTime();
- 
-    distance2 = countDownDate2 - now2;
-}
  
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -107,35 +88,6 @@ var x = setInterval(function() {
     countDownDate = new Date(times[index]).getTime();
     }
 }, 1000);
-      
-// Update the count down every 1 second
-var y = setInterval(function() {
- 
-    // Get todays date and time
-    var now2 = new Date().getTime();
-   
-    // Find the distance between now and the count down date
-    var distance2 = countDownDate2 - now2;
-   
-    // Time calculations for days, hours, minutes and seconds
-    var hours2 = Math.floor((distance2 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    var minutes2 = Math.floor((distance2 % (1000 * 60 * 60)) / (1000 * 60));
-    var seconds2 = Math.floor((distance2 % (1000 * 60)) / 1000);
-   
-    // Output the result in an element with id="demo"
-    document.getElementById("countdown2").innerHTML = "Possible Countdown: " + hours2 + "h "
-    + minutes2 + "m " + seconds2 + "s ";
- 
-    console.log(distance2)
- 
-    if (distance2 < 0) {
-    document.getElementById("countdown2").innerHTML = "Cube Time!";
-    }
-    if (distance2 < -19000) {
-        index2 += 1
-    countDownDate2 = new Date(times2[index2]).getTime();
-    }
-}, 1000);
 </script>
 
     <!-- Custom CSS -->
@@ -153,7 +105,6 @@ var y = setInterval(function() {
       <div class="center-object">
         <section class="me">
           <h1 class="title" style="width: 100%;text-align: center">Cube Countdown!</h1>
-          <span class="undertitle" style="width: 100%;text-align: center" id="countdown2"></span>
           <span class="undertitle" style="width: 100%;text-align: center" id="countdown"></span>
         </section>
         <div class="buttons">
