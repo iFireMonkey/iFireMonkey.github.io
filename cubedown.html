@@ -6,7 +6,6 @@
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-
       gtag('config', 'UA-52771679-1');
     </script>
 
@@ -40,25 +39,19 @@ function wait(ms) {
  
 // Set the date we're counting down to
  
-var countDownDate = new Date("Aug 26, 2018 00:00:00 EDT").getTime();
- 
-var times = ["Aug 31, 2018 00:51:26 EDT", "Aug 31, 2018 01:43:06 EDT", "Aug 31, 2018 02:34:45 EDT", "Aug 31, 2018 03:26:25 EDT", "Aug 31, 2018 04:18:04 EDT", "Aug 31, 2018 05:09:44 EDT", "Aug 31, 2018 06:01:23 EDT", "Aug 31, 2018 06:53:03 EDT", "Aug 31, 2018 07:44:42 EDT", "Aug 31, 2018 08:36:22 EDT", "Aug 31, 2018 09:28:01 EDT", "Aug 31, 2018 10:19:41 EDT", "Aug 31, 2018 11:11:20 EDT", "Aug 31, 2018 12:03:00 EDT", "Aug 31, 2018 12:54:39 EDT", "Aug 31, 2018 13:46:19 EDT", "Aug 31, 2018 14:37:58 EDT", "Aug 31, 2018 15:29:38 EDT", "Aug 31, 2018 16:21:17 EDT", "Aug 31, 2018 17:12:57 EDT", "Aug 31, 2018 18:04:36 EDT", "Aug 31, 2018 18:56:16 EDT", "Aug 31, 2018 19:47:55 EDT", "Aug 31, 2018 20:39:35 EDT", "Aug 31, 2018 21:31:14 EDT", "Aug 31, 2018 22:22:54 EDT", "Aug 31, 2018 23:14:33 EDT"]
-var index = -1
+var countDownDate = new Date("Aug 31, 2018 00:51:26 EDT")
  
 // Get todays date and time
 var now = new Date().getTime();
    
 // Find the distance between now and the count down date
-var distance = countDownDate - now;
- 
+var distance = countDownDate.getTime() - now;
 while (distance < 0) {
-    index += 1
- 
-    countDownDate = new Date(times[index]).getTime();
+    countDownDate.setSeconds(countDownDate.getSeconds() + 3099)
+    console.log("TEST")
  
     distance = countDownDate - now;
 }
-
  
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -84,8 +77,7 @@ var x = setInterval(function() {
     document.getElementById("countdown").innerHTML = "Cube Time!";
     }
     if (distance < -19000) {
-        index += 1
-    countDownDate = new Date(times[index]).getTime();
+    countDownDate.setSeconds(countDownDate.getSeconds() + 3080);
     }
 }, 1000);
 </script>
@@ -97,10 +89,8 @@ var x = setInterval(function() {
     <div class="fullscreen">
       <div data-jarallax data-speed="0.25" class="jarallax background" style="background-image: url('assets/images/bg1.gif');"></div>
       <script type="text/javascript">
-
     var images = ['assets/images/down1.gif', 'assets/images/down2.gif', 'assets/images/down3.gif', 'assets/images/down4.gif', 'assets/images/down5.gif', 'assets/images/down6.gif', 'assets/images/down7.gif'];
     document.getElementsByClassName('background')[0].style.backgroundImage = 'url(' + images[Math.floor(Math.random() * images.length)] + ')';
-
   </script>
       <div class="center-object">
         <section class="me">
