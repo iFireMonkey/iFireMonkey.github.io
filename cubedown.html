@@ -39,13 +39,13 @@ function wait(ms) {
  
 // Set the date we're counting down to
  
-var countDownDate = new Date("Sep 2, 2018 07:25:00 EDT")
+var countDownDate = new Date("Sep 2, 2018 06:59:46 EDT")
  
 // Get todays date and time
 var now = new Date().getTime();
       
-var minutes = 25
-var seconds = 49.75
+var minutes = 47
+var seconds = 30
    
 // Find the distance between now and the count down date
 var distance = countDownDate.getTime() - now;
@@ -71,7 +71,7 @@ var x = setInterval(function() {
     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
    
     // Output the result in an element with id="demo"
-    document.getElementById("countdown").innerHTML = "Possible Movement Time: " + hours + "h "
+    document.getElementById("countdown").innerHTML = hours + "h "
     + minutes + "m " + seconds + "s ";
  
     console.log(distance)
@@ -98,7 +98,7 @@ var x = setInterval(function() {
       <div class="center-object">
         <section class="me">
           <h1 class="title" style="width: 100%;text-align: center">Cube Countdown!</h1>
-          <span class="undertitle" style="width: 100%;text-align: center" id="countdown">Printing Rune #2! Estimated Finish Time: </span>
+          <span class="undertitle" style="width: 100%;text-align: center" id="countdown"></span>
         </section>
         <div class="buttons">
           <a href="https://twitter.com/Sud4nym" class="btn animation twitter hover" target="_blank">@Sud4nym</a>
