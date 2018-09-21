@@ -19,7 +19,6 @@
 
     <!-- JavaScript -->
     <script src="assets/js/smoothscroll.min.js" type="text/javascript" charset="utf-8"></script>
-    <script src="assets/js/jarallax.min.js" type="text/javascript" charset="utf-8"></script>
     <script src="assets/js/main.js" type="text/javascript" charset="utf-8"></script>
     <script>
 function wait(ms) {
@@ -84,7 +83,7 @@ var x = setInterval(function() {
   </head>
   <body>
     <div class="fullscreen">
-      <div data-jarallax data-speed="0.25" class="jarallax background" style="background-image: url('assets/images/bg1.gif');"></div>
+      <div class="background" style="background-image: url('assets/images/bg1.gif');"></div>
       <script type="text/javascript">
     var images = ['assets/images/down1.gif', 'assets/images/down2.gif', 'assets/images/down3.gif', 'assets/images/down4.gif', 'assets/images/down5.gif', 'assets/images/down6.gif', 'assets/images/down7.gif'];
     document.getElementsByClassName('background')[0].style.backgroundImage = 'url(' + images[Math.floor(Math.random() * images.length)] + ')';
