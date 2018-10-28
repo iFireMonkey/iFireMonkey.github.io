@@ -78,7 +78,7 @@ audio.volume = 0.4;
 function pausesong() {
     song.pause();
 }
-var images = ["assets/images/Onesie.png", "assets/images/Onesie1.png"];
+var image = "assets/images/Onesie.png";
 var no = 50;
 var time = 0;
 var speed = 60;
@@ -149,7 +149,7 @@ for (i = 0; i < no; ++i) {
     am[i] = Math.random() * 20;
     sx[i] = 0.02 + Math.random() / 10;
     sy[i] = 0.7 + Math.random();
-    document.write("<div id=\"dot" + i + "\" style=\"POSITION: absolute; Z-INDEX: 5; VISIBILITY: visible; TOP: 15px;LEFT: 15px;\"><img src='" + images + "' border=\"0\"><\/div>");
+    document.write("<div id=\"dot" + i + "\" style=\"POSITION: absolute; Z-INDEX: 5; VISIBILITY: visible; TOP: 15px;LEFT: 15px;\"><img src='" + image + "' border=\"0\"><\/div>");
 }
 function animation() {
     for (i = 0; i < no; ++i) {
