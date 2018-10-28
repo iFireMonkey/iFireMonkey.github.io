@@ -82,7 +82,7 @@ var image = "assets/images/Onesie.png";
 var no = 50;
 var time = 0;
 var speed = 60;
-var i, dwidth = 200, dheight = 370;
+var i, dwidth = 50, dheight = 270;
 var nht = dheight;
 var toppos = 0;
 if (document.all) {
