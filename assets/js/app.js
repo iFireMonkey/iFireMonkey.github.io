@@ -79,7 +79,7 @@ function pausesong() {
     song.pause();
 }
 var image = "assets/images/Onesie.png";
-var no = 15;
+var no = 35;
 var time = 0;
 var speed = 60;
 var i, dwidth = 700, dheight = 870;
