@@ -78,7 +78,7 @@ audio.volume = 0.4;
 function pausesong() {
     song.pause();
 }
-var image = ['assets/images/Onesie.png', 'assets/images/Onesie.png'];
+var image = ["assets/images/Onesie.png", "assets/images/Onesie1.png"];
 var no = 50;
 var time = 0;
 var speed = 60;
