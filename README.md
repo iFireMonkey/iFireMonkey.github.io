@@ -7,4 +7,3 @@
   - [ModestaCSS](https://github.com/AlexFlipnote/ModestaCSS)
   - [SmoothScroll](https://github.com/alicelieutier/smoothScroll)
 ---
-## Placeholder
