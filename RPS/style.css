@@ -20,15 +20,15 @@
   font-style: normal;
 }
 body {
-  background-color: white;
-  color: #777777;
+  background-color: #2c2f33;
+  color: #ffffff;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-size: 1.6rem;
 }
 
 .main {
-  background-color: white;
+  background-color: #2c2f33;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -38,17 +38,17 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .header {
-  background-color: #efefef;
-  border: 1px solid #efefef;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
   border-bottom: 2px solid gainsboro;
 }
 
 .header h1 {
-  color: #ff7729;
+  color: #ffffff;
 }
 
 .shoot {
-  color: #efefef;
+  color: #ffffff;
 }
 
 .shoot:hover {
@@ -95,7 +95,7 @@ h1 span.scissors {
 
 button.play {
   border-radius: 10px;
-  border: 4px solid white;
+  border: 4px solid #504f3c;
 }
 
 button.play.rock {
@@ -109,7 +109,7 @@ button.play.paper {
 }
 
 button.play.scissors {
-  background: #efefef url("https://dl.dropboxusercontent.com/u/6152966/scissors.png") no-repeat;
+  background: #2c2f33 url(https://dl.dropboxusercontent.com/u/6152966/scissors.png) no-repeat;
   background-size: 175px 175px;
 }
 
@@ -120,13 +120,13 @@ button.play:hover {
 button#reset {
   font-size: 12px;
   font-size: 1.2rem;
-  color: #777777;
-  background-color: gainsboro;
+  color: #ffffff;
+  background-color: #544242;
   border-radius: 10px;
 }
 
 h2#results {
-  color: #444444;
+  color: #ffffff;
   font-size: 24px;
   font-size: 2.4rem;
 }
@@ -137,13 +137,13 @@ p {
 }
 
 .scorebox {
-  background-color: #efefef;
-  border: 4px solid #efefef;
+  background-color: #2c2f33;
+  border: 4px solid #2c2f33;
   border-radius: 10px;
 }
 
 .scorebox h2 {
-  color: #777777;
+  color: #ffffff;
   font-weight: 600;
   font-size: 24px;
   font-size: 2.4rem;
@@ -153,14 +153,14 @@ span#loses,
 span#wins {
   font-size: 48px;
   font-size: 4.8rem;
-  color: #9b1c31;
+  color: #ff5571;
   font-family: "haymakerregular", Helvetica, Arial, sans-serif;
 }
 
 .score-divider span {
   font-size: 40px;
   font-size: 4rem;
-  color: #9b1c31;
+  color: #ff5571;
   font-weight: 200;
 }
 
@@ -168,7 +168,7 @@ div.score-num,
 div.score-divider {
   font-size: 18px;
   font-size: 1.8rem;
-  color: #777777;
+  color: #ffffff;
   font-weight: 600;
   text-align: center;
 }
