@@ -10,8 +10,8 @@ var play = function(userChoice) {
 					
 					if (userChoice == "rock" || userChoice == "paper" || userChoice == "scissors") {
 						document.getElementById("player").innerHTML='You chose' + ' ' + userChoice + '.';
-					} else if (userChoice == "rope") {
-						document.getElementById("player").innerHTML='You chose' + ' ' + userChoice + '. <br />Well aren\'t you a smarty pants.';
+					} else if (userChoice == "FireMonkey") {
+						document.getElementById("player").innerHTML='You chose' + ' ' + userChoice + '. <br />You threw FireMonkey at your opponent you monster.';
 					} else {
 						document.getElementById("player").innerHTML="That is not a valid choice, try again.";
 						
@@ -56,9 +56,9 @@ var play = function(userChoice) {
 								wins++;
 								return "Scissors wins!";
 							}
-						} else if (choice1 == "rope") {
+						} else if (choice1 == "FireMonkey") {
 							wins++;
-							return "Rope FTW";
+							return "FireMonkey Won!";
 						} else {
 							return "Whoops, the game broke, you're a winner in our book.";
 						}
@@ -74,10 +74,10 @@ var play = function(userChoice) {
 						document.getElementById("loses").style.fontSize="44";
 					}
 					if (wins > 999) {
-						alert("You reached the max score of 999!");
+						alert("You reached 999! You may want to reset.");
 					}
 					if (loses > 999) {
-						alert("Your opponent reached the max score of 999!");
+						alert("Your opponent reached 999! You may want to reset.");
 					}
 			};
 
