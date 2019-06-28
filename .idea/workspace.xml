@@ -2,8 +2,53 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e079971-a738-4ef2-ab6d-0c1bdf7175ec" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/profile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/404.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/FINAL.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/bg1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/bg10.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/bg11.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/bg12.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/bg13.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/bg14.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/bg15.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/bg16.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/bg18.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/bg19.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/bg2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/bg20.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/bg21.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/bg22.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/bg23.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/bg24.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/bg25.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/bg26.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/bg27.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/bg28.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/bg29.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/bg3.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/bg30.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/bg31.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/bg32.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/bg33.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/bg34.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/bg35.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/bg36.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/bg37.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/bg4.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/bg5.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/bg6.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/bg7.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/bg8.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/bg9.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/down1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/down2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/down3.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/down4.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/down5.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/down6.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/down7.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/favicon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/projectbg.gif" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tracker/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/tracker/index.html" afterDir="false" />
     </list>
@@ -21,8 +66,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="104" column="86" lean-forward="true" selection-start-line="104" selection-start-column="86" selection-end-line="104" selection-end-column="86" />
+            <state relative-caret-position="170">
+              <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h1#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -34,6 +79,11 @@
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/images/favicon.png">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -51,8 +101,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tracker/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="102" column="98" selection-start-line="102" selection-start-column="98" selection-end-line="102" selection-end-column="98" />
+            <state relative-caret-position="39">
+              <caret line="81" column="13" lean-forward="true" selection-start-line="81" selection-start-column="13" selection-end-line="81" selection-end-column="13" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h1#0;n#section#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -87,6 +137,8 @@
       <find>h1</find>
       <find>button#reset</find>
       <find>resuk</find>
+      <find>BGs/</find>
+      <find>/BGs/</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -113,8 +165,8 @@
         <option value="$PROJECT_DIR$/RPS/index.html" />
         <option value="$PROJECT_DIR$/RPS/script.js" />
         <option value="$PROJECT_DIR$/assets/css/modesta.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/tracker/index.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -323,8 +375,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tracker/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="102" column="98" selection-start-line="102" selection-start-column="98" selection-end-line="102" selection-end-column="98" />
+        <state relative-caret-position="39">
+          <caret line="81" column="13" lean-forward="true" selection-start-line="81" selection-start-column="13" selection-end-line="81" selection-end-column="13" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h1#0;n#section#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -336,10 +388,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/favicon.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="104" column="86" lean-forward="true" selection-start-line="104" selection-start-column="86" selection-end-line="104" selection-end-column="86" />
+        <state relative-caret-position="170">
+          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h1#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
