@@ -1,3 +1,8 @@
+/*!
+ * ModestaCSS v1.0.2 (https://modesta.alexflipnote.dev)
+ * Made by AlexFlipnote (https://alexflipnote.dev)
+ * Licensed under GPL-3.0 (https://github.com/AlexFlipnote/ModestaCSS/blob/master/LICENSE)
+ */
 @import url("https://fonts.googleapis.com/css?family=Montserrat|Roboto");html {
     font-size: 62.5%
 }
@@ -1427,7 +1432,7 @@ h6 {
     -ms-animation: fading 300ms ease-in-out;
     -moz-animation: fading 300ms ease-in-out;
     -o-animation: fading 300ms ease-in-out;
-    background-image: url("./images/arrow.png");
+    background-image: url("../images/arrow.png");
     background-size: contain;
     bottom: 20px;
     height: 40px;
@@ -1473,6 +1478,10 @@ button {
     position: relative
 }
 
+button.btn {
+    box-shadow: unset !important
+}
+
 button:active {
     box-shadow: none !important;
     top: 2
@@ -1503,6 +1512,11 @@ button.black {
     box-shadow: 0 3px 0 0 rgba(0,0,0,0.5)
 }
 
+button.blurple {
+    background-color: #7289da;
+    box-shadow: 0 3px 0 0 rgba(114,137,218,0.5)
+}
+
 button.carrot {
     background-color: #e67e22;
     box-shadow: 0 3px 0 0 rgba(230,126,34,0.5)
@@ -1521,6 +1535,11 @@ button.concrete {
 button.cubered {
     background-color: #ef0c0c;
     box-shadow: 0 3px 0 0 rgba(239,12,12,0.5)
+}
+
+button.dark-not-black {
+    background-color: #2c2f33;
+    box-shadow: 0 3px 0 0 rgba(44,47,51,0.5)
 }
 
 button.dark {
@@ -1543,6 +1562,11 @@ button.green-sea {
     box-shadow: 0 3px 0 0 rgba(22,160,133,0.5)
 }
 
+button.greyple {
+    background-color: #99aab5;
+    box-shadow: 0 3px 0 0 rgba(153,170,181,0.5)
+}
+
 button.highlight {
     background-color: #181818;
     box-shadow: 0 3px 0 0 rgba(24,24,24,0.5)
@@ -1561,6 +1585,11 @@ button.midnight-blue {
 button.nephritis {
     background-color: #27ae60;
     box-shadow: 0 3px 0 0 rgba(39,174,96,0.5)
+}
+
+button.not-black {
+    background-color: #23272a;
+    box-shadow: 0 3px 0 0 rgba(35,39,42,0.5)
 }
 
 button.orange {
@@ -1993,6 +2022,46 @@ button.youtube {
     background-color: #000
 }
 
+.btn.blurple,input[type="submit"].blurple {
+    background-color: #7289da;
+    filter: drop-shadow(5px 5px 0 rgba(114,137,218,0.6))
+}
+
+.btn.blurple:hover,input[type="submit"].blurple:hover {
+    filter: drop-shadow(5px 5px 0 rgba(114,137,218,0.6)) brightness(50%)
+}
+
+.btn.blurple-border,input[type="submit"].blurple-border {
+    border: 3px solid #7289da;
+    height: auto
+}
+
+.btn.blurple-border:hover,input[type="submit"].blurple-border:hover {
+    filter: brightness(50%)
+}
+
+.btn.blurple-border-nodark,input[type="submit"].blurple-border-nodark {
+    border: 3px solid #7289da;
+    height: auto
+}
+
+.btn.blurple-nodark,input[type="submit"].blurple-nodark {
+    background-color: #7289da;
+    filter: drop-shadow(5px 5px 0 rgba(114,137,218,0.6))
+}
+
+.btn.blurple-flat,input[type="submit"].blurple-flat {
+    background-color: #7289da
+}
+
+.btn.blurple-flat:hover,input[type="submit"].blurple-flat:hover {
+    filter: brightness(50%)
+}
+
+.btn.blurple-flat-nodark,input[type="submit"].blurple-flat-nodark {
+    background-color: #7289da
+}
+
 .btn.carrot,input[type="submit"].carrot {
     background-color: #e67e22;
     filter: drop-shadow(5px 5px 0 rgba(230,126,34,0.6))
@@ -2151,6 +2220,46 @@ button.youtube {
 
 .btn.cubered-flat-nodark,input[type="submit"].cubered-flat-nodark {
     background-color: #ef0c0c
+}
+
+.btn.dark-not-black,input[type="submit"].dark-not-black {
+    background-color: #2c2f33;
+    filter: drop-shadow(5px 5px 0 rgba(44,47,51,0.6))
+}
+
+.btn.dark-not-black:hover,input[type="submit"].dark-not-black:hover {
+    filter: drop-shadow(5px 5px 0 rgba(44,47,51,0.6)) brightness(50%)
+}
+
+.btn.dark-not-black-border,input[type="submit"].dark-not-black-border {
+    border: 3px solid #2c2f33;
+    height: auto
+}
+
+.btn.dark-not-black-border:hover,input[type="submit"].dark-not-black-border:hover {
+    filter: brightness(50%)
+}
+
+.btn.dark-not-black-border-nodark,input[type="submit"].dark-not-black-border-nodark {
+    border: 3px solid #2c2f33;
+    height: auto
+}
+
+.btn.dark-not-black-nodark,input[type="submit"].dark-not-black-nodark {
+    background-color: #2c2f33;
+    filter: drop-shadow(5px 5px 0 rgba(44,47,51,0.6))
+}
+
+.btn.dark-not-black-flat,input[type="submit"].dark-not-black-flat {
+    background-color: #2c2f33
+}
+
+.btn.dark-not-black-flat:hover,input[type="submit"].dark-not-black-flat:hover {
+    filter: brightness(50%)
+}
+
+.btn.dark-not-black-flat-nodark,input[type="submit"].dark-not-black-flat-nodark {
+    background-color: #2c2f33
 }
 
 .btn.dark,input[type="submit"].dark {
@@ -2313,6 +2422,46 @@ button.youtube {
     background-color: #16a085
 }
 
+.btn.greyple,input[type="submit"].greyple {
+    background-color: #99aab5;
+    filter: drop-shadow(5px 5px 0 rgba(153,170,181,0.6))
+}
+
+.btn.greyple:hover,input[type="submit"].greyple:hover {
+    filter: drop-shadow(5px 5px 0 rgba(153,170,181,0.6)) brightness(50%)
+}
+
+.btn.greyple-border,input[type="submit"].greyple-border {
+    border: 3px solid #99aab5;
+    height: auto
+}
+
+.btn.greyple-border:hover,input[type="submit"].greyple-border:hover {
+    filter: brightness(50%)
+}
+
+.btn.greyple-border-nodark,input[type="submit"].greyple-border-nodark {
+    border: 3px solid #99aab5;
+    height: auto
+}
+
+.btn.greyple-nodark,input[type="submit"].greyple-nodark {
+    background-color: #99aab5;
+    filter: drop-shadow(5px 5px 0 rgba(153,170,181,0.6))
+}
+
+.btn.greyple-flat,input[type="submit"].greyple-flat {
+    background-color: #99aab5
+}
+
+.btn.greyple-flat:hover,input[type="submit"].greyple-flat:hover {
+    filter: brightness(50%)
+}
+
+.btn.greyple-flat-nodark,input[type="submit"].greyple-flat-nodark {
+    background-color: #99aab5
+}
+
 .btn.highlight,input[type="submit"].highlight {
     background-color: #181818;
     filter: drop-shadow(5px 5px 0 rgba(24,24,24,0.6))
@@ -2471,6 +2620,46 @@ button.youtube {
 
 .btn.nephritis-flat-nodark,input[type="submit"].nephritis-flat-nodark {
     background-color: #27ae60
+}
+
+.btn.not-black,input[type="submit"].not-black {
+    background-color: #23272a;
+    filter: drop-shadow(5px 5px 0 rgba(35,39,42,0.6))
+}
+
+.btn.not-black:hover,input[type="submit"].not-black:hover {
+    filter: drop-shadow(5px 5px 0 rgba(35,39,42,0.6)) brightness(50%)
+}
+
+.btn.not-black-border,input[type="submit"].not-black-border {
+    border: 3px solid #23272a;
+    height: auto
+}
+
+.btn.not-black-border:hover,input[type="submit"].not-black-border:hover {
+    filter: brightness(50%)
+}
+
+.btn.not-black-border-nodark,input[type="submit"].not-black-border-nodark {
+    border: 3px solid #23272a;
+    height: auto
+}
+
+.btn.not-black-nodark,input[type="submit"].not-black-nodark {
+    background-color: #23272a;
+    filter: drop-shadow(5px 5px 0 rgba(35,39,42,0.6))
+}
+
+.btn.not-black-flat,input[type="submit"].not-black-flat {
+    background-color: #23272a
+}
+
+.btn.not-black-flat:hover,input[type="submit"].not-black-flat:hover {
+    filter: brightness(50%)
+}
+
+.btn.not-black-flat-nodark,input[type="submit"].not-black-flat-nodark {
+    background-color: #23272a
 }
 
 .btn.orange,input[type="submit"].orange {
@@ -5120,6 +5309,15 @@ button.youtube {
     background-color: #000
 }
 
+.box-container.blurple {
+    background-color: #7289da;
+    filter: drop-shadow(5px 5px 0 rgba(114,137,218,0.6))
+}
+
+.box-container.blurple-flat {
+    background-color: #7289da
+}
+
 .box-container.carrot {
     background-color: #e67e22;
     filter: drop-shadow(5px 5px 0 rgba(230,126,34,0.6))
@@ -5154,6 +5352,15 @@ button.youtube {
 
 .box-container.cubered-flat {
     background-color: #ef0c0c
+}
+
+.box-container.dark-not-black {
+    background-color: #2c2f33;
+    filter: drop-shadow(5px 5px 0 rgba(44,47,51,0.6))
+}
+
+.box-container.dark-not-black-flat {
+    background-color: #2c2f33
 }
 
 .box-container.dark {
@@ -5192,6 +5399,15 @@ button.youtube {
     background-color: #16a085
 }
 
+.box-container.greyple {
+    background-color: #99aab5;
+    filter: drop-shadow(5px 5px 0 rgba(153,170,181,0.6))
+}
+
+.box-container.greyple-flat {
+    background-color: #99aab5
+}
+
 .box-container.highlight {
     background-color: #181818;
     filter: drop-shadow(5px 5px 0 rgba(24,24,24,0.6))
@@ -5226,6 +5442,15 @@ button.youtube {
 
 .box-container.nephritis-flat {
     background-color: #27ae60
+}
+
+.box-container.not-black {
+    background-color: #23272a;
+    filter: drop-shadow(5px 5px 0 rgba(35,39,42,0.6))
+}
+
+.box-container.not-black-flat {
+    background-color: #23272a
 }
 
 .box-container.orange {
@@ -5669,10 +5894,10 @@ button.youtube {
 
 .card-container .card .avatar img {
     border-radius: 100%;
-    margin: .5em 0;
     height: 7em;
-    width: 7em;
-    padding: 0
+    margin: .5em 0;
+    padding: 0;
+    width: 7em
 }
 
 .card-container .card .title {
@@ -5778,15 +6003,13 @@ button.youtube {
 }
 
 .table-container table {
-    background: #282828;
-    border: 1px solid #303030;
     border-collapse: collapse;
     color: #fff;
-    display: inline-block;
     font-size: 13px;
     margin: 0;
     margin-bottom: 2.5rem;
-    max-width: 800px;
+    overflow: hidden;
+    overflow-x: auto;
     padding: 0;
     position: relative;
     text-align: left;
@@ -5944,45 +6167,6 @@ button.youtube {
     .buttons.one-line .btn {
         padding: 14px 8px;
         width: 75%
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .table-container table {
-        border:0;
-        filter: none;
-        width: 100%
-    }
-
-    .table-container table thead {
-        display: none
-    }
-
-    .table-container table tr {
-        border-bottom: 3px solid #aaa;
-        display: block;
-        margin-bottom: 10px
-    }
-
-    .table-container table td {
-        border-bottom: 1px dotted #ccc;
-        display: block;
-        font-size: 13px
-    }
-
-    .table-container table td:first-child {
-        font-weight: bold
-    }
-
-    .table-container table td:last-child {
-        border-bottom: 0
-    }
-
-    .table-container table td::before {
-        content: attr(data-label);
-        float: left;
-        font-weight: bold;
-        text-transform: uppercase
     }
 }
 
@@ -6305,6 +6489,37 @@ button.youtube {
     filter: brightness(50%)
 }
 
+.blurple {
+    background-color: #7289da !important
+}
+
+.blurple-text {
+    color: #7289da !important
+}
+
+.blurple-dropshadow {
+    background-color: #7289da;
+    filter: drop-shadow(5px 5px 0 rgba(114,137,218,0.6))
+}
+
+.blurple-paper {
+    background: linear-gradient(225deg,transparent 26px,#7289da 0) !important
+}
+
+.blurple-paper::before {
+    border-color: #7289da transparent !important;
+    filter: brightness(75%) !important
+}
+
+.blurple-bar {
+    background-color: #7289da !important
+}
+
+.blurple-bar::before {
+    background-color: #7289da !important;
+    filter: brightness(50%)
+}
+
 .carrot {
     background-color: #e67e22 !important
 }
@@ -6426,6 +6641,37 @@ button.youtube {
 
 .cubered-bar::before {
     background-color: #ef0c0c !important;
+    filter: brightness(50%)
+}
+
+.dark-not-black {
+    background-color: #2c2f33 !important
+}
+
+.dark-not-black-text {
+    color: #2c2f33 !important
+}
+
+.dark-not-black-dropshadow {
+    background-color: #2c2f33;
+    filter: drop-shadow(5px 5px 0 rgba(44,47,51,0.6))
+}
+
+.dark-not-black-paper {
+    background: linear-gradient(225deg,transparent 26px,#2c2f33 0) !important
+}
+
+.dark-not-black-paper::before {
+    border-color: #2c2f33 transparent !important;
+    filter: brightness(75%) !important
+}
+
+.dark-not-black-bar {
+    background-color: #2c2f33 !important
+}
+
+.dark-not-black-bar::before {
+    background-color: #2c2f33 !important;
     filter: brightness(50%)
 }
 
@@ -6553,6 +6799,37 @@ button.youtube {
     filter: brightness(50%)
 }
 
+.greyple {
+    background-color: #99aab5 !important
+}
+
+.greyple-text {
+    color: #99aab5 !important
+}
+
+.greyple-dropshadow {
+    background-color: #99aab5;
+    filter: drop-shadow(5px 5px 0 rgba(153,170,181,0.6))
+}
+
+.greyple-paper {
+    background: linear-gradient(225deg,transparent 26px,#99aab5 0) !important
+}
+
+.greyple-paper::before {
+    border-color: #99aab5 transparent !important;
+    filter: brightness(75%) !important
+}
+
+.greyple-bar {
+    background-color: #99aab5 !important
+}
+
+.greyple-bar::before {
+    background-color: #99aab5 !important;
+    filter: brightness(50%)
+}
+
 .highlight {
     background-color: #181818 !important
 }
@@ -6674,6 +6951,37 @@ button.youtube {
 
 .nephritis-bar::before {
     background-color: #27ae60 !important;
+    filter: brightness(50%)
+}
+
+.not-black {
+    background-color: #23272a !important
+}
+
+.not-black-text {
+    color: #23272a !important
+}
+
+.not-black-dropshadow {
+    background-color: #23272a;
+    filter: drop-shadow(5px 5px 0 rgba(35,39,42,0.6))
+}
+
+.not-black-paper {
+    background: linear-gradient(225deg,transparent 26px,#23272a 0) !important
+}
+
+.not-black-paper::before {
+    border-color: #23272a transparent !important;
+    filter: brightness(75%) !important
+}
+
+.not-black-bar {
+    background-color: #23272a !important
+}
+
+.not-black-bar::before {
+    background-color: #23272a !important;
     filter: brightness(50%)
 }
 

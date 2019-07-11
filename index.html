@@ -8,7 +8,7 @@
 
     <!-- Meta Data -->
     <meta name="theme-color" content="#98ff98">
-    <meta content="assets/images/profile.jpg" property="og:image" />
+    <meta content="https://ifiremonkey.me/assets/images/profile.jpg" property="og:image" />
     <link rel="icon" type="image/x-icon" href="assets/images/favicon.png">
     <meta content="FireMonkey" property="og:title" />
 
@@ -17,24 +17,19 @@
 
     <!-- CSS -->
     <link href="assets/css/modesta.css" type="text/css" rel="stylesheet">
+    <link href="assets/css/emoji.css" type="text/css" rel="stylesheet">
+    <link href="assets/css/custom.css" type="text/css" rel="stylesheet">
 
     <!-- JavaScript -->
     <script src="assets/js/smoothscroll.min.js" type="text/javascript" charset="utf-8"></script>
     <script src="assets/js/main.js" type="text/javascript" charset="utf-8"></script>
 
-    <!-- Custom CSS -->
-    <style>
-        .one-full.column p,
-        .one-full.column h1 {
-            margin: 0;
-        }
-    </style>
 
 <body>
 <div class="fullscreen">
     <div class="background" style="background-image: url('assets/images/bg1.gif');"></div>
     <script type="text/javascript">
-                var images = ['assets/images/BGs/bg1.gif', 'assets/images/BGs/bg2.gif', 'assets/images/BGs/bg3.gif', 'assets/images/BGs/bg4.gif', 'assets/images/BGs/bg5.gif', 'assets/images/BGs/bg6.gif', 'assets/images/BGs/bg7.gif', 'assets/images/BGs/bg8.gif', 'assets/images/BGs/bg9.gif', 'assets/images/BGs/bg10.gif', 'assets/images/BGs/bg11.gif', 'assets/images/BGs/bg12.gif', 'assets/images/BGs/bg13.gif', 'assets/images/BGs/bg14.gif', 'assets/images/BGs/bg15.gif', 'assets/images/BGs/bg16.gif', 'assets/images/BGs/bg17.gif','assets/images/BGs/bg18.gif', 'assets/images/BGs/bg19.gif', 'assets/images/BGs/bg20.gif', 'assets/images/BGs/bg21.gif', 'assets/images/BGs/bg22.gif', 'assets/images/BGs/bg23.gif', 'assets/images/BGs/bg24.gif', 'assets/images/BGs/bg25.gif', 'assets/images/BGs/bg26.gif', 'assets/images/BGs/bg27.gif', 'assets/images/BGs/bg28.gif', 'assets/images/BGs/bg29.gif', 'assets/images/BGs/bg30.gif', 'assets/images/BGs/bg31.gif', 'assets/images/BGs/bg32.gif', 'assets/images/BGs/bg33.gif', 'assets/images/BGs/bg34.gif', 'assets/images/BGs/bg35.gif', 'assets/images/BGs/bg36.gif', 'assets/images/BGs/bg37.gif', 'assets/images/BGs/bg38.gif', 'assets/images/BGs/bg39.gif', 'assets/images/BGs/bg40.gif', 'assets/images/BGs/bg41.gif', 'assets/images/BGs/bg42.gif', 'assets/images/BGs/bg43.gif', 'assets/images/BGs/bg44.gif', 'assets/images/BGs/bg45.gif', 'assets/images/BGs/bg46.gif', 'assets/images/BGs/bg47.gif', 'assets/images/BGs/bg48.gif', 'assets/images/BGs/bg49.gif', 'assets/images/BGs/bg50.gif'];
+                var images = ['assets/images/BGs/bg1.gif', 'assets/images/BGs/bg2.gif', 'assets/images/BGs/bg3.gif', 'assets/images/BGs/bg4.gif', 'assets/images/BGs/bg5.gif', 'assets/images/BGs/bg6.gif', 'assets/images/BGs/bg7.gif', 'assets/images/BGs/bg8.gif', 'assets/images/BGs/bg9.gif', 'assets/images/BGs/bg10.gif', 'assets/images/BGs/bg11.gif', 'assets/images/BGs/bg12.gif', 'assets/images/BGs/bg13.gif', 'assets/images/BGs/bg14.gif', 'assets/images/BGs/bg15.gif', 'assets/images/BGs/bg16.gif', 'assets/images/BGs/bg17.gif','assets/images/BGs/bg18.gif', 'assets/images/BGs/bg19.gif', 'assets/images/BGs/bg20.gif', 'assets/images/BGs/bg21.gif', 'assets/images/BGs/bg22.gif', 'assets/images/BGs/bg23.gif', 'assets/images/BGs/bg24.gif', 'assets/images/BGs/bg25.gif', 'assets/images/BGs/bg26.gif', 'assets/images/BGs/bg27.gif', 'assets/images/BGs/bg28.gif', 'assets/images/BGs/bg29.gif', 'assets/images/BGs/bg30.gif', 'assets/images/BGs/bg31.gif', 'assets/images/BGs/bg32.gif', 'assets/images/BGs/bg33.gif', 'assets/images/BGs/bg34.gif', 'assets/images/BGs/bg35.gif', 'assets/images/BGs/bg36.gif', 'assets/images/BGs/bg37.gif', 'assets/images/BGs/bg38.gif', 'assets/images/BGs/bg39.gif', 'assets/images/BGs/bg40.gif', 'assets/images/BGs/bg41.gif', 'assets/images/BGs/bg42.gif', 'assets/images/BGs/bg43.gif', 'assets/images/BGs/bg44.gif', 'assets/images/BGs/bg45.gif', 'assets/images/BGs/bg46.gif', 'assets/images/BGs/bg47.gif', 'assets/images/BGs/bg48.gif', 'assets/images/BGs/bg49.gif'];
                 document.getElementsByClassName('background')[0].style.backgroundImage = 'url(' + images[Math.floor(Math.random() * images.length)] + ')';
             </script>
     <style>
@@ -77,11 +72,8 @@
 
 <section class="container" id="information">
     <div class="box-container row">
-        <div class="flex-grid">
-            <div class="col-xs">
-                <div class="one-full column">
-                    <h1><i class="twa twa-pencil2"></i><span class="emerald-text">About myself:</span></h1></div>
-                <div class="one-full column">
+        <div class="one-full column"><h1 class="emerald-text"><i class="emoji firemonkeywave"></i> About Me:</h1></div>
+        <div class="one-full column">
                     <p>
                         Welcome to my website! My name is Ricky, but I am known as <span class="youtube-text">FireMonkey</span> over the internet. I do multiple things such as YouTube, Coding, Refactoring, Datamining games, and being your average highschool student. I have been teaching myself and working in groups to learn more coding for around <span class="sun-flower-text">3 years</span> now and I plan to keep learning more! Currently, the coding languages that I know pretty well are <span class="emerald-text">HTML, CSS, JavaScript, C#, C++ and Python.</span>
                     </p>
