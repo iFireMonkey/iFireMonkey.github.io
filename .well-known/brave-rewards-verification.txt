@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: ifiremonkey.me 
+Token: 89fdb4b186f584b76b140971f3f7a400317b41b82d77250a688e4e26457c98cb
