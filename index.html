@@ -91,9 +91,18 @@
     <div class="center-object">
         <section class="me">
             <h1 class="title" style="width: 100%;font-size: 500%;text-align: center;font-weight: bold">Portfolio</h1>
+            <script>var randomlinks = [];
+            randomlinks[0]="/GnomeFlip";
+            randomlinks[1]="/RickFlip";
+
+            function randomlink(){
+                window.open(randomlinks[Math.floor(Math.random()*randomlinks.length)]);
+            }</script>
             <div class="buttons">
-                <a href="https://twitter.com/iFireMonkey" class="btn animation youtube hover" target="_blank">Fortnite Leaks</a>
-                <a href="/RPS" class="btn animation github hover">Rock, Paper, Scissors</a>
+                <a href="https://twitter.com/iFireMonkey" class="btn animation twitter hover" target="_blank">FN Leaks</a>
+                <a href="https://twitter.com/iFireMonkey/status/1151280550117871616?s=20" class="btn animation discord hover">Shop Bot</a>
+                <a href="/RPS" class="btn animation github hover">RPS</a>
+                <a href="#" onclick="randomlink()" class="btn animation youtube hover">Video 50/50</a>
                 <a href="/tracker" class="btn animation twitch hover">Cube Tracker</a>
             </div>
         </section>
