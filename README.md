@@ -1,5 +1,5 @@
-# ifiremonkey.me
-**A website made as my personal website for projects, experimental stuff, and just a spot for me to be myself.
+# iFireMonkey.me
+- A website made as my personal website for projects, experimental stuff, and just a spot for me to be myself.
 ---
 ## JS/CSS used to help the site look beautiful:
 - Work I Used for Starting Points:
@@ -7,4 +7,4 @@
   - [SmoothScroll](https://github.com/alicelieutier/smoothScroll)
 ---
 ### My Social Media
-<table><tr><td align="center"><a href="https://github.com/ItsFireMonkey"><img src="https://avatars2.githubusercontent.com/u/38590471?s=200&v=4" width="100px;" alt="FireMonkey"/><br /><sub><b>FireMonkey</b></sub></a><br><a href="https://github.com/ItsFireMonkey" title="Github">🔧</a><a href="https://twitter.com/iFireMonkey" title="Twitter">🐦</a><a href="https://youtube.com/firemonkeyv2" title="YouTube">📷</a></td></tr></table>
+<table><tr><td align="center"><a href="https://github.com/ItsFireMonkey"><img src="https://avatars2.githubusercontent.com/u/38590471?s=200&v=4" width="100px;" alt="FireMonkey"/><br /><sub><b>FireMonkey</b></sub></a><br><a href="https://twitter.com/iFireMonkey" title="Twitter">🐦</a><a href="https://github.com/ItsFireMonkey" title="Github">🔧</a><a href="https://youtube.com/firemonkeyv2" title="YouTube">📷</a></td></tr></table>
