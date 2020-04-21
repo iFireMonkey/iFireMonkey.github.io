@@ -11,7 +11,7 @@ var play = function(userChoice) {
 					if (userChoice == "rock" || userChoice == "paper" || userChoice == "scissors") {
 						document.getElementById("player").innerHTML='You chose' + ' ' + userChoice + '.';
 					} else if (userChoice == "FireMonkey") {
-						document.getElementById("player").innerHTML='You chose' + ' ' + userChoice + '. <br />You threw FireMonkey at your opponent you monster.';
+						document.getElementById("player").innerHTML='You chose' + ' ' + userChoice + '.';
 					} else {
 						document.getElementById("player").innerHTML="That is not a valid choice, try again.";
 						
@@ -68,17 +68,6 @@ var play = function(userChoice) {
 					document.getElementById("results").innerHTML=winner;
 					document.getElementById("wins").innerHTML=wins;
 					document.getElementById("loses").innerHTML=loses;
-					
-					if (wins > 99 || loses > 99) {
-						document.getElementById("wins").style.fontSize="44";
-						document.getElementById("loses").style.fontSize="44";
-					}
-					if (wins > 999) {
-						alert("You reached 999! You may want to reset.");
-					}
-					if (loses > 999) {
-						alert("Your opponent reached 999! You may want to reset.");
-					}
 			};
 
 var reset = function() {
