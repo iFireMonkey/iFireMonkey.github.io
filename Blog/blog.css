@@ -314,7 +314,7 @@ h1,h2,h3,h4,h5,h6 {
     color: #ffffff;
     line-height: 1.15;
     font-weight: 700;
-    text-rendering: optimizeLegibility
+    text-rendering: optimizeLegibility;
 }
 
 h1 {
