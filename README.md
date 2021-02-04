@@ -1,4 +1,4 @@
-# iFireMonkey.me
+# iFireMonkey.Net
 - A website made as my personal website for projects, experimental stuff, and just a spot for me to be myself.
 ---
 ## JS/CSS used to help the site look beautiful:
