@@ -7,4 +7,4 @@
   - [SmoothScroll](https://github.com/alicelieutier/smoothScroll)
 ---
 ### My Social Media
-<table><tr><td align="center"><a href="https://github.com/iFireMonkey"><img src="https://avatars2.githubusercontent.com/u/38590471?s=200&v=4" width="100px;" alt="FireMonkey"/><br /><sub><b>FireMonkey</b></sub></a><br><a href="https://twitter.com/FireMonkey__" title="Twitter">🐦</a><a href="https://github.com/iFireMonkey" title="Github">🔧</a><a href="https://youtube.com/firemonkeyv2" title="YouTube">📷</a></td></tr></table>
+<table><tr><td align="center"><a href="https://github.com/iFireMonkey"><img src="https://avatars2.githubusercontent.com/u/38590471?s=200&v=4" width="100px;" alt="FireMonkey"/><br /><sub><b>FireMonkey</b></sub></a><br><a href="https://twitter.com/imFireMonkey" title="Twitter">🐦</a><a href="https://github.com/iFireMonkey" title="Github">🔧</a><a href="https://youtube.com/iFireMonkey" title="YouTube">📷</a></td></tr></table>
